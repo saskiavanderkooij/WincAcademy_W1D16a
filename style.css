@@ -1,0 +1,260 @@
+body{
+    background-color: #f1f1f1;
+}
+
+.btn-toggle {
+    position: fixed;
+    top: 0;
+    width: 60px;
+    height: 60px;
+    background-image: url("icons/hamburger_menu.png");
+    background-repeat: no-repeat;
+    background-size: 75%;
+    background-position: center;
+    cursor:pointer;
+}
+
+.nav-hamburger {
+    position: fixed;
+    left: 0;
+    top: 60px;
+    z-index: 1000;
+    width: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-hamburger ul {
+    padding-left: 15px;
+    overflow: hidden;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-hamburger ul li {
+    line-height: 60px;
+    list-style: none;
+    transition: all 0.3s ease-in-out;*/
+}
+
+.nav-hamburger ul li span {
+    display: block;
+    height: 60px;
+    padding: 0 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    white-space: nowrap;  
+    opacity: 0;
+}
+
+.nav-hamburger ul li span:hover {
+  background-color: #f1f1f1;
+}
+
+.rood {
+    background-color: red;
+    color: purple;
+}
+
+.rood-background {
+    background-color: red;
+}
+
+.rood-background:after {
+    background-color: red;
+    margin: 3rem;
+    content: "rood";
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70px;
+    color: purple;
+    top: 300px;
+    left: 300px;
+    z-index: -1;
+}
+
+.rood-label {
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    padding-left: 5px;
+}
+
+.oranje {
+    background-color: orange;
+    color: red;
+}
+
+.oranje-background {
+    background-color: orange;
+}
+
+.oranje-background:after {
+    background-color: orange;
+    margin: 3rem;
+    content: "oranje";
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70px;
+    color: red;
+    top: 300px;
+    left: 300px;
+    z-index: -1;
+}
+
+.oranje-label {
+    color: orange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    padding-left: 5px;
+}
+
+.geel {
+    background-color: yellow;
+    color:orange;
+}
+
+.geel-background {
+    background-color: yellow;
+}
+
+.geel-background:after {
+    background-color: yellow;
+    margin: 3rem;
+    content: "geel";
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70px;
+    color: orange;
+    top: 300px;
+    left: 300px;
+    z-index: -1;
+}
+
+.geel-label {
+    color: yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    padding-left: 5px;
+}
+
+.groen {
+    background-color: greenyellow;
+    color: yellow;
+}
+
+.groen-background {
+    background-color: greenyellow;
+}
+
+.groen-background:after {
+    background-color: greenyellow;
+    margin: 3rem;
+    content: "groen";
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70px;
+    color: yellow;
+    top: 300px;
+    left: 300px;
+    z-index: -1;
+}
+
+.groen-label {
+    color: greenyellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    padding-left: 5px;
+}
+
+.blauw {
+    background-color: aquamarine;
+    color: greenyellow;
+}
+
+.blauw-background {
+    background-color: aquamarine;
+}
+
+.blauw-background:after {
+    background-color: aquamarine;
+    margin: 3rem;
+    content: "blauw";
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70px;
+    color: greenyellow;
+    top: 300px;
+    left: 300px;
+    z-index: -1;
+}
+
+.blauw-label {
+    color: aquamarine;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    padding-left: 5px;
+}
+
+.indigo {
+    background-color: darkblue;
+    color: aquamarine;
+}
+
+.indigo-background {
+    background-color: darkblue;
+}
+
+.indigo-background:after {
+    background-color: darkblue;
+    margin: 3rem;
+    content: "indigo";
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70px;
+    color: aquamarine;
+    top: 300px;
+    left: 300px;
+    z-index: -1;
+}
+
+.indigo-label {
+    color: darkblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    padding-left: 5px;
+}
+
+.paars {
+    background-color: purple;
+    color: darkblue;
+}
+
+.paars-background {
+    background-color: purple;
+}
+
+.paars-background:after {
+    background-color: purple;
+    margin: 3rem;
+    content: "paars";
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70px;
+    color: darkblue;
+    top: 300px;
+    left: 300px;
+    z-index: -1;
+}
+
+.paars-label {
+    color: purple;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    padding-left: 5px;
+}
+
+
+
+
